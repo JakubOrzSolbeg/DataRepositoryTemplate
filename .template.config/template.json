@@ -1,0 +1,12 @@
+{
+  "author": "Jakub Orzyłowski",
+  "name": "Data Repository",
+  "description": "Template for using repository - service pattern",
+  "identity": "Jakubo.DataRepository.1.1",
+  "shortName": "datarepository",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DataRepository"
+}
