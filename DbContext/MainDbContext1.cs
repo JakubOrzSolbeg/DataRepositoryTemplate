@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace DataRepository.DbContext;
 
-public class MainDbContext1 : DbContextBase
+public class MainDbContext1 : Microsoft.EntityFrameworkCore.DbContext
 {
     private readonly IConfiguration _configuration;
     public MainDbContext1(IConfiguration configuration)

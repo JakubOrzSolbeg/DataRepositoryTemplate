@@ -1,7 +1,4 @@
 using DataRepository.DbContext;
-using DataRepository.Entities;
-using DataRepository.Repositories;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DataRepository;

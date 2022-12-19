@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DataRepository.Entities;
+namespace DataRepository.Entities.Base;
 
 public class BaseEntity
 {
