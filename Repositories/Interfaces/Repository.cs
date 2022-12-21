@@ -11,7 +11,7 @@ public abstract class Repository<T> where T : BaseEntity
     {
         MainDbContext = mainDbContext;
     }
-    
+
     public abstract Task<List<T>> GetAll();
     public abstract Task<T?> GetById(int id);
     public abstract Task<T> Add(T obj);
